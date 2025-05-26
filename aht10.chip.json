@@ -1,0 +1,11 @@
+{
+  "id": "aht10",
+  "name": "AHT10 Temp/Humidity Sensor",
+  "script": "aht10.chip.js",
+  "pins": [
+    { "name": "GND", "type": "power", "voltage": 0 },
+    { "name": "VCC", "type": "power", "voltage": 3.3 },
+    { "name": "SCL", "type": "i2c", "number": 0 },
+    { "name": "SDA", "type": "i2c", "number": 0 }
+  ]
+}
